@@ -1,0 +1,25 @@
+#!/bin/bash
+
+
+confDay="/home/pi/Desktop/confDay.ini"
+confOpe="/home/pi/Desktop/confOpe.ini"
+nFramesDay=15
+nFramesOpe=50
+nCapDirctn=50
+
+sudo chown pi /home/pi/Desktop/pi*
+input="/home/pi/Desktop/switch_mode.txt"
+
+line=$(head -n 1 $input)
+if [[ "$line" = "Day" ]]
+then
+  echo "Day"
+  echo "Operational" > "$input"
+  /home/pi/Desktop/Capture.py $nFramesDay $nCapDirctn $confDay
+else
+  echo "Operational"
+  echo "Day" > "$input"
+  /home/pi/Desktop/Capture.py $nFramesOpe $nCapDirctn $confOpe
+fi
+
+sudo chown pi /home/pi/Desktop/pi*
