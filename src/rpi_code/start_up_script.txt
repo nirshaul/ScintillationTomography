@@ -1,0 +1,37 @@
+#===================================================================================================#
+# You are very welcome to use this code. For this, clearly acknowledge                              #
+# the source of this code, and cite the paper that describes the algorithm:                         #
+# N. Shaul and Y. Y. Schechner, "Tomography of Turbulence Strength Based on Scintillation Imaging", #
+# Proc. of European Conference on Computer Vision (ECCV), 2022.                                     #
+#                                                                                                   #
+# (c) Copyright Nir Shaul 2022. The python code is available for                                    #
+# non-commercial use and exploration.  For commercial use contact the                               #
+# author. The author is not liable for any damages or loss that might be                            #
+# caused by use or connection to this code.                                                         #
+#===================================================================================================#
+
+#!/bin/bash
+
+
+confDay="/home/pi/Desktop/confDay.ini"
+confOpe="/home/pi/Desktop/confOpe.ini"
+nFramesDay=15
+nFramesOpe=50
+nCapDirctn=50
+
+sudo chown pi /home/pi/Desktop/pi*
+input="/home/pi/Desktop/switch_mode.txt"
+
+line=$(head -n 1 $input)
+if [[ "$line" = "Day" ]]
+then
+  echo "Day"
+  echo "Operational" > "$input"
+  /home/pi/Desktop/Capture.py $nFramesDay $nCapDirctn $confDay
+else
+  echo "Operational"
+  echo "Day" > "$input"
+  /home/pi/Desktop/Capture.py $nFramesOpe $nCapDirctn $confOpe
+fi
+
+sudo chown pi /home/pi/Desktop/pi*
