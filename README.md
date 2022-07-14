@@ -8,6 +8,4 @@
 * Source files for controlling imaging system can be found [here](/src).
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/RRp_Qc8MPZU/0.jpg)](https://www.youtube.com/watch?v=RRp_Qc8MPZU)
 
-
-[![Everything Is AWESOME](https://img.youtube.com/vi/RRp_Qc8MPZU/0.jpg)]([https://youtu.be/StTqXEQ2l-Y?t=35s](https://www.youtube.com/watch?v=RRp_Qc8MPZU) "Everything Is AWESOME")
-
+[![Everything Is AWESOME](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/RRp_Qc8MPZU "Everything Is AWESOME")
