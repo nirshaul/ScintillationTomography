@@ -1,4 +1,4 @@
-# ScintillationTomography
+# Tomography Of Turbulence Strength Based on Scintillation Imaging
 
 * This is a repo for code and raw data of the field experiment which is published in the paper: "Tomography of Turbulence Strength Based on Scintillation Imaging. N Shaul, Y. Y. Schechner ECCV 2022.
 * Raw data of the experiment which took place in Haifa bay at 02/02/2022 can be found [here](https://technionmail-my.sharepoint.com/:f:/g/personal/hybridlab_technion_ac_il/EijmwytR5qNMjLHg_MB0l5ABYp5k-aGzZW-ZMTzEv3Ll-g?e=4Ql63B). 
@@ -6,7 +6,8 @@
 
 
 * Source files for controlling imaging system can be found [here](/src).
-https://youtu.be/RRp_Qc8MPZU
-https://youtu.be/RRp_Qc8MPZU
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/RRp_Qc8MPZU/0.jpg)](https://www.youtube.com/watch?v=RRp_Qc8MPZU)
+
+
+[![Everything Is AWESOME](https://img.youtube.com/vi/RRp_Qc8MPZU/0.jpg)]([https://youtu.be/StTqXEQ2l-Y?t=35s](https://www.youtube.com/watch?v=RRp_Qc8MPZU) "Everything Is AWESOME")
 
