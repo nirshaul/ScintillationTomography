@@ -6,6 +6,7 @@
 
 
 * Source files for controlling imaging system can be found [here](/src).
+* Scintillation Example:
+
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/RRp_Qc8MPZU/0.jpg)](https://www.youtube.com/watch?v=RRp_Qc8MPZU)
 
-[![Everything Is AWESOME](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/RRp_Qc8MPZU "Everything Is AWESOME")
