@@ -1,7 +1,9 @@
 # Tomography Of Turbulence Strength Based on Scintillation Imaging
 
 * This is a repo for code and raw data of the field experiment which is published in the paper: Tomography of Turbulence Strength Based on Scintillation Imaging. N Shaul, Y. Y. Schechner, In: Proc. ECCV 2022.
-![Alt Text](https://github.com/nirshaul/ScintillationTomography/blob/main/Scint.gif)
+<p align="center">
+  ![Alt Text](https://github.com/nirshaul/ScintillationTomography/blob/main/Scint.gif)
+</p>
 * Raw data of the experiment which took place in Haifa bay at 02/02/2022 can be found [here](https://technionmail-my.sharepoint.com/:f:/g/personal/hybridlab_technion_ac_il/EijmwytR5qNMjLHg_MB0l5ABYp5k-aGzZW-ZMTzEv3Ll-g?e=4Ql63B). 
 
 * Source files for controlling imaging system can be found [here](/src).
