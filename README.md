@@ -7,3 +7,5 @@
 * Scintillation video sample from the field experiment:
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/RRp_Qc8MPZU/0.jpg)](https://www.youtube.com/watch?v=KibeQY8pxyc)
+
+![](https://github.com//nirshaul/ScintillationTomography/ezgif-5-d809c01086.gif)
